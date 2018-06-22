@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/home_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/view_holder1"
+        android:textSize="16sp"
+        android:hint="Username:"
+        android:text="Username:"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:layout_marginBottom="20px"/>
+
+
+    <TextView
+        android:id="@+id/home_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/view_holder1"
+        android:hint="@string/email"
+        android:padding="10dp"
+        android:text="Email:"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="20px"/>
+
+    <TextView
+        android:id="@+id/home_contact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:background="@color/view_holder1"
+        android:hint="@string/contact"
+        android:padding="10dp"
+        android:layout_marginBottom="20px"
+        android:text="Contact:"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:background="@color/view_holder1"
+        android:hint="@string/description"
+        android:padding="10dp"
+        android:text="Description:"
+        android:textColor="@android:color/white" />
+</LinearLayout>

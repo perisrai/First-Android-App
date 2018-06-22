@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.peris.myapp.EditProfileActivity">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/cardview">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/user_name_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/signup_fields"
+                    android:padding="10dp"
+                    android:background="@drawable/round_background"
+                    android:hint=" Username . . ."
+                    android:singleLine="true"
+                    android:textStyle="italic"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/email_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/signup_fields"
+                    android:padding="10dp"
+                    android:background="@drawable/round_background"
+                    android:hint=" Email . . ."
+                    android:singleLine="true"
+                    android:textStyle="italic"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout_Contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/contact_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/signup_fields"
+                    android:padding="10dp"
+                    android:background="@drawable/round_background"
+                    android:hint=" Contact . . ."
+                    android:singleLine="true"
+                    android:textStyle="italic"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout_Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/password_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/signup_fields"
+                    android:padding="10dp"
+                    android:background="@drawable/round_background"
+                    android:hint=" Password . . ."
+                    android:singleLine="true"
+                    android:inputType="textPassword"
+                    android:textStyle="italic"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/confirm_password_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:layout_weight="1"
+                    android:textColor="@color/signup_fields"
+                    android:padding="10dp"
+                    android:background="@drawable/round_background"
+                    android:hint=" Confirm Password . . ."
+                    android:singleLine="true"
+                    android:textStyle="italic"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/update_btn_eddit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longin_button"
+                android:text="@string/Update"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/button_color"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

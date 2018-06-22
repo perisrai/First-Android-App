@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home_recycler_view" type="id">home_recycler_view</item>
+    <item name="activity_recycler_view" type="id" />
+    <item name="activity_recycler_display" type="id" />
+</resources>

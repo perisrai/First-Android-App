@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CollegeProject</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password:</string>
+    <string name="username">Username:</string>
+    <string name="name">Name:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="email">Email:</string>
+    <string name="contact">Contact:</string>
+    <string name="title_activity_sqlite_text">activity_sqlite_text</string>
+    <string name="Edit_Profile">Edit_Profile</string>
+    <string name="Update">Update</string>
+    <string name="address">address</string>
+    <string name="description">description</string>
+
+</resources>
